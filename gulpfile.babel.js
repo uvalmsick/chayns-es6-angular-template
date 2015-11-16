@@ -11,6 +11,9 @@ import fs from "fs";
 
 let devServer = browserSync.create();
 
+const RELEASE_PATH = "\\\\some\\path";
+const QA_PATH = "\\\\some\\path";
+
 /**
  * Default task.
  */
@@ -20,6 +23,12 @@ gulp.task("default", ["server"]);
  * Calls task chain for building the app.
  */
 gulp.task("build", ["sourcemaps"]);
+
+/**
+ * Deploys project to release/qa path.
+ */
+gulp.task("deploy:release", () => gulp.src("./dist/**/*").pipe(gulp.dest(RELEASE_PATH)));
+gulp.task("deploy:qa", () => gulp.src("./dist/**/*").pipe(gulp.dest(QA_PATH)));
 
 /**
  * Bundles js files.
