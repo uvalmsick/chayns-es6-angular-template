@@ -1,0 +1,12 @@
+CACHE MANIFEST
+# Version: 1447650697842
+
+CACHE:
+index.html
+js/app.bundle.js
+# js/app.bundle.min.js
+//chayns-res.tobit.com/api/v3/rc/css/chayns.min.css
+//chayns-res.tobit.com/api/v3/rc/js/chayns.min.js
+
+NETWORK:
+*

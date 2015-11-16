@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html manifest="appcache.manifest">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="//chayns-res.tobit.com/api/v3/rc/css/chayns.min.css"/>
+
+    <title>Angular ES2015 Template</title>
+</head>
+<body ng-controller="appController as appCtrl">
+
+<div class="tapp">
+    <div class="tapp__content">
+        <h1>Angular ES2015 Template</h1>
+        <p>
+            Angular says: {{ appCtrl.hello() }}
+        </p>
+    </div>
+</div>
+
+<script src="//chayns-res.tobit.com/api/v3/rc/js/chayns.min.js"></script>
+<script src="js/app.bundle.js"></script>
+
+</body>
+</html>
