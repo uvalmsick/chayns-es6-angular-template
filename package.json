@@ -1,14 +1,15 @@
 {
   "name": "chayns_es6_angular",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Template for chayns Tapps using Angular and ES2015",
+  "main": "src/js/core/bootstrap.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["chayns", "angular", "es2015"],
+  "author": "Rico Herwig",
   "license": "ISC",
+  "repository": "https://github.com/rherwig/chayns-es6-angular-template",
   "devDependencies": {
     "angular": "^1.4.7",
     "babel": "^6.1.18",
